@@ -1,0 +1,41 @@
+body{
+    all: unset; /*retira todas as configurações padrão*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /*ocupa toda a página*/
+    background-color: rgba(166, 197, 207, 0.959);
+}
+
+.content{
+    display: flex; /*deixa automaticamente um ao lado do outro*/
+    flex-direction: column; /*alinha um abaixo do outro*/
+    align-items: center;
+    justify-content: center;
+    gap: 16px; /*espaçamento entre os elementos*/
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    padding: 3rem 4rem;
+    color: rgb(68, 57, 42);
+}
+
+.content input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(68, 57, 42);
+    font-size: 16px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(68, 57, 42);
+    width: 50%;
+}
+
+.content input::placeholder{
+    color: rgb(85, 85, 85);
+}
+
+.content button{
+    padding: 10px;
+    width: 80%;
+}
